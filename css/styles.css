@@ -1,9 +1,88 @@
+.container-fluid {
+  width: 100%;
+}
+
 img {
   max-width: 100%;
+}
+
+.nav {
+  background-color: white;
+  color: ff322e;
+  padding: 30px 50px 30px 50px;
 }
 
 .nav li {
   list-style-type: none;
   display: inline-block;
-  padding:10px;
+  padding: 40px 10px 40px 10px;
+  float: right;
+}
+
+.nav li a {
+  color: ff322e;
+}
+
+.nav p {
+  font-family: monospace;
+}
+
+.projects {
+  padding: 50px 50px 50px 50px;
+  background-color: ff322e;
+  color: white;
+}
+
+.projects p {
+  font-family: monospace;
+}
+
+.projects p a {
+  color: white;
+}
+
+projects p a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+
+.about {
+  background-color: blue;
+}
+
+.contact {
+  background-color: green;
+}
+
+.about {
+  background: white;
+}
+
+.about img {
+  margin-left: -15px;
+  padding: 0px;
+}
+
+.bio {
+  padding: 50px 55px 50px 20px;
+}
+
+.contact {
+  background-color: 42b883;
+  color: white;
+  padding: 50px 50px 50px 50px;
+}
+
+.contact h2 {
+  float: left;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 30px 10px 30px 10px;
+  float: right;
+}
+
+.contact li a {
+  color: white;
 }

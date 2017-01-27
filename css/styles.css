@@ -1,0 +1,9 @@
+img {
+  max-width: 100%;
+}
+
+.nav li {
+  list-style-type: none;
+  padding:10px;
+  float: right;
+}

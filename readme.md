@@ -11,6 +11,7 @@ No set up instructions needed.
 * Git & GitHub
 * Bootstrap
 
-View this site on [GitHub Pages] (http://rachel-gibbons.com)
+View this site on [GitHub Pages] (rachelegibbons.github.io/portfolio-site)
 
-Copyright (c) 2017 Rachel E Gibbons. The content of this site is licensed under the MIT License.
+Copyright (c) 2017 Rachel E Gibbons.
+The content of this site is licensed under the MIT License.

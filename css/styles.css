@@ -97,8 +97,21 @@ img {
   font-size: 16px;
 }
 
-.contact {
+.bio p strong {
   background-color: 7be1df;
+}
+
+.bio p em {
+  background-color: orange;
+}
+
+.bioIntro {
+  background-color: f6ea60;
+  font-weight: bolder;
+}
+
+.contact {
+  background-color: ff322e;
   color: white;
   padding: 50px 50px 50px 50px;
   font-family: 'rubik', sans-serif;
@@ -113,11 +126,11 @@ img {
 .contact li a {
   color: black;
   padding: 15px;
-  background-color: f6ea60;
+  background-color: 7be1df;
 }
 
 .contact li a:hover {
-  background-color: ff322e;
-  color: white;
+  background-color: f6ea60;
+  color: black;
   font-family: monospace;
 }

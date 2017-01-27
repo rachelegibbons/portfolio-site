@@ -33,6 +33,7 @@ img {
 
 .nav li a:hover {
   background-color: f6ea60;
+  font-family: monospace;
 }
 
 .nav p {
@@ -63,6 +64,10 @@ img {
   text-decoration: underline;
   background-color: white;
   color: ff322e;
+}
+
+.projects p a:visited {
+  color: white;
 }
 
 .project {
@@ -97,14 +102,22 @@ img {
   color: white;
   padding: 50px 50px 50px 50px;
   font-family: 'rubik', sans-serif;
+  text-align: center;
 }
 
 .contact li {
   display: inline-block;
   padding: 30px 10px 30px 10px;
-  text-align: center;
 }
 
 .contact li a {
+  color: black;
+  padding: 15px;
+  background-color: f6ea60;
+}
+
+.contact li a:hover {
+  background-color: ff322e;
   color: white;
+  font-family: monospace;
 }

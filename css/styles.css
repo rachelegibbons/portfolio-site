@@ -8,8 +8,13 @@ img {
 
 .nav {
   background-color: white;
-  color: ff322e;
+  color: black;
   padding: 30px 50px 30px 50px;
+}
+
+.nav h1 {
+  font-family: 'Eczar', serif;
+  font-size: 54px;
 }
 
 .nav li {
@@ -17,10 +22,17 @@ img {
   display: inline-block;
   padding: 40px 10px 40px 10px;
   float: right;
+  font-family: 'rubik', sans-serif;
 }
 
 .nav li a {
-  color: ff322e;
+  color: black;
+  background-color:7be1df;
+  padding: 15px;
+}
+
+.nav li a:hover {
+  background-color: f6ea60;
 }
 
 .nav p {
@@ -28,9 +40,14 @@ img {
 }
 
 .projects {
-  padding: 50px 50px 50px 50px;
+  padding: 30px 50px 30px 50px;
   background-color: ff322e;
   color: white;
+}
+
+.projects h2 {
+  font-family: 'rubik', sans-serif;
+  font-size: 24px;
 }
 
 .projects p {
@@ -39,48 +56,53 @@ img {
 
 .projects p a {
   color: white;
+  text-decoration: underline;
 }
 
-projects p a:hover {
+.projects p a:hover {
   text-decoration: underline;
   background-color: white;
+  color: ff322e;
+}
+
+.project {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 0px 20px 0px;
+  background-color: orange;
 }
 
 .about {
-  background-color: blue;
-}
+  background-color: white;
+  padding: 50px;
 
-.contact {
-  background-color: green;
-}
-
-.about {
-  background: white;
 }
 
 .about img {
-  margin-left: -15px;
-  padding: 0px;
+  background-color: 7be1df;
 }
 
 .bio {
-  padding: 50px 55px 50px 20px;
+  padding: 0px 55px 25 20px;
+  font-family: 'Eczar', sans-serif;
+  font-size: 34px;
+}
+
+.bio p {
+  font-family: 'rubik', sans-serif;
+  font-size: 16px;
 }
 
 .contact {
-  background-color: 42b883;
+  background-color: 7be1df;
   color: white;
   padding: 50px 50px 50px 50px;
-}
-
-.contact h2 {
-  float: left;
+  font-family: 'rubik', sans-serif;
 }
 
 .contact li {
   display: inline-block;
   padding: 30px 10px 30px 10px;
-  float: right;
+  text-align: center;
 }
 
 .contact li a {

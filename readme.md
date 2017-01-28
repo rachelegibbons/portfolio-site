@@ -3,9 +3,10 @@ _created by Rachel E Gibbons_
 
 This portfolio site was created to house projects I have worked on.
 
+#### Setup instructions
 No set up instructions needed.
 
-###Known Bugs
+#### Known Bugs
 No known bugs at this time
 
 #### Technologies used:
